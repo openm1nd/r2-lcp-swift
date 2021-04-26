@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.exclude_files = ["**/Info*.plist"]
   s.requires_arc  = true
   s.resources     = ['readium-lcp-swift/Resources/**']
-  s.source_files  = "readium-lcp-swift/**/*.{m,h,swift}"
+  s.source_files  = "readium-lcp-swift/**/*.{xib,m,h,swift}"
   s.platform      = :ios
   s.ios.deployment_target = "10.0"
   s.xcconfig      = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}
