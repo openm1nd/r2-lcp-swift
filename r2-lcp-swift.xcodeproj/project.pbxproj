@@ -10,7 +10,7 @@
 		3ED94B8AA015ACF0A3976C89 /* LCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED94B8D1A7FFE4673AE7B29 /* LCPClient.swift */; };
 		3ED94D142DA304C6D4E4DB81 /* LCPRenewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED946FE6F293298E0DF8C37 /* LCPRenewDelegate.swift */; };
 		3ED94EE43308394A43E51641 /* LCPTestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED94983A0E532A984A04672 /* LCPTestClient.swift */; };
-		6D652AB92636F15200D36E03 /* LCPDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D652ABB2636F15200D36E03 /* LCPDialogViewController.xib */; };
+		6D652D842636F74200D36E03 /* LCPDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D652D832636F74200D36E03 /* LCPDialogViewController.xib */; };
 		CA26EF7C2280331E0011653E /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26EF7B2280331E0011653E /* Connection.swift */; };
 		CA2AE328221C3CFB008BD18F /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AE327221C3CFB008BD18F /* Deprecated.swift */; };
 		CA2B6B5224C07880007AF537 /* LCPContentProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B6B5124C07880007AF537 /* LCPContentProtection.swift */; };
@@ -92,7 +92,7 @@
 		3ED946FE6F293298E0DF8C37 /* LCPRenewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPRenewDelegate.swift; sourceTree = "<group>"; };
 		3ED94983A0E532A984A04672 /* LCPTestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPTestClient.swift; sourceTree = "<group>"; };
 		3ED94B8D1A7FFE4673AE7B29 /* LCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPClient.swift; sourceTree = "<group>"; };
-		6D652B322636F21A00D36E03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCPDialogViewController.xib; sourceTree = "<group>"; };
+		6D652D832636F74200D36E03 /* LCPDialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCPDialogViewController.xib; sourceTree = "<group>"; };
 		CA26EF7B2280331E0011653E /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		CA2AE327221C3CFB008BD18F /* Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
 		CA2B6B5124C07880007AF537 /* LCPContentProtection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCPContentProtection.swift; sourceTree = "<group>"; };
@@ -211,7 +211,6 @@
 		CA50B88122B2A7F2003AFF24 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6D652ABB2636F15200D36E03 /* LCPDialogViewController.xib */,
 				CAB214E02269C241007E989D /* prod-license.lcpl */,
 				CA50B88622B2A822003AFF24 /* Localizable.strings */,
 			);
@@ -246,6 +245,7 @@
 				CA6CF1CC2528CB830025BBB2 /* LCPPassphraseAuthentication.swift */,
 				CA6CF1C62528CB690025BBB2 /* LCPDialogAuthentication.swift */,
 				CA6CF1E12528CC8E0025BBB2 /* LCPDialogViewController.swift */,
+				6D652D832636F74200D36E03 /* LCPDialogViewController.xib */,
 			);
 			path = Authentications;
 			sourceTree = "<group>";
@@ -506,7 +506,7 @@
 			files = (
 				CAB214E12269C241007E989D /* prod-license.lcpl in Resources */,
 				CA50B88422B2A822003AFF24 /* Localizable.strings in Resources */,
-				6D652AB92636F15200D36E03 /* LCPDialogViewController.xib in Resources */,
+				6D652D842636F74200D36E03 /* LCPDialogViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,14 +613,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6D652ABB2636F15200D36E03 /* LCPDialogViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D652B322636F21A00D36E03 /* en */,
-			);
-			name = LCPDialogViewController.xib;
-			sourceTree = "<group>";
-		};
 		CA50B88622B2A822003AFF24 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
