@@ -11,9 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
   s.resources     = ['readium-lcp-swift/**/*.{xcassets,json,storyboard,xib,xcdatamodeld}', 'readium-lcp-swift/Resources/**']
   s.source_files  = "readium-lcp-swift/**/*.{m,h,swift}"
-  s.resource_bundles = {
-     'ReadiumLCP' => ['readium-lcp-swift/**/*.xib']
-  }
   s.platform      = :ios
   s.ios.deployment_target = "10.0"
   s.xcconfig      = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}
