@@ -92,7 +92,7 @@
 		3ED946FE6F293298E0DF8C37 /* LCPRenewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPRenewDelegate.swift; sourceTree = "<group>"; };
 		3ED94983A0E532A984A04672 /* LCPTestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPTestClient.swift; sourceTree = "<group>"; };
 		3ED94B8D1A7FFE4673AE7B29 /* LCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPClient.swift; sourceTree = "<group>"; };
-		6D652ABA2636F15200D36E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LCPDialogViewController.xib; sourceTree = "<group>"; };
+		6D652B322636F21A00D36E03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCPDialogViewController.xib; sourceTree = "<group>"; };
 		CA26EF7B2280331E0011653E /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		CA2AE327221C3CFB008BD18F /* Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
 		CA2B6B5124C07880007AF537 /* LCPContentProtection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCPContentProtection.swift; sourceTree = "<group>"; };
@@ -616,7 +616,7 @@
 		6D652ABB2636F15200D36E03 /* LCPDialogViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6D652ABA2636F15200D36E03 /* Base */,
+				6D652B322636F21A00D36E03 /* en */,
 			);
 			name = LCPDialogViewController.xib;
 			sourceTree = "<group>";
