@@ -10,6 +10,7 @@
 		3ED94B8AA015ACF0A3976C89 /* LCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED94B8D1A7FFE4673AE7B29 /* LCPClient.swift */; };
 		3ED94D142DA304C6D4E4DB81 /* LCPRenewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED946FE6F293298E0DF8C37 /* LCPRenewDelegate.swift */; };
 		3ED94EE43308394A43E51641 /* LCPTestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED94983A0E532A984A04672 /* LCPTestClient.swift */; };
+		6D6528EB2636E8C100D36E03 /* LCPDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6528EA2636E8C100D36E03 /* LCPDialogViewController.xib */; };
 		CA26EF7C2280331E0011653E /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26EF7B2280331E0011653E /* Connection.swift */; };
 		CA2AE328221C3CFB008BD18F /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AE327221C3CFB008BD18F /* Deprecated.swift */; };
 		CA2B6B5224C07880007AF537 /* LCPContentProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B6B5124C07880007AF537 /* LCPContentProtection.swift */; };
@@ -44,7 +45,6 @@
 		CA6CF1C72528CB690025BBB2 /* LCPDialogAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF1C62528CB690025BBB2 /* LCPDialogAuthentication.swift */; };
 		CA6CF1CD2528CB830025BBB2 /* LCPPassphraseAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF1CC2528CB830025BBB2 /* LCPPassphraseAuthentication.swift */; };
 		CA6CF1E52528CC8E0025BBB2 /* LCPDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF1E12528CC8E0025BBB2 /* LCPDialogViewController.swift */; };
-		CA6CF1ED2528CC9A0025BBB2 /* LCPDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6CF1EB2528CC9A0025BBB2 /* LCPDialogViewController.xib */; };
 		CA9428FD22B9442300305CDB /* ReadiumLicenseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9428FC22B9442300305CDB /* ReadiumLicenseContainer.swift */; };
 		CAB131F6220D81E60097DFB5 /* LicensesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB131F5220D81E60097DFB5 /* LicensesRepository.swift */; };
 		CAB1320B220D9B200097DFB5 /* LCPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1320A220D9B200097DFB5 /* LCPService.swift */; };
@@ -92,7 +92,7 @@
 		3ED946FE6F293298E0DF8C37 /* LCPRenewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPRenewDelegate.swift; sourceTree = "<group>"; };
 		3ED94983A0E532A984A04672 /* LCPTestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPTestClient.swift; sourceTree = "<group>"; };
 		3ED94B8D1A7FFE4673AE7B29 /* LCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPClient.swift; sourceTree = "<group>"; };
-		6D6527542636E33C00D36E03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCPDialogViewController.xib; sourceTree = "<group>"; };
+		6D6528EA2636E8C100D36E03 /* LCPDialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCPDialogViewController.xib; sourceTree = "<group>"; };
 		CA26EF7B2280331E0011653E /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		CA2AE327221C3CFB008BD18F /* Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
 		CA2B6B5124C07880007AF537 /* LCPContentProtection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCPContentProtection.swift; sourceTree = "<group>"; };
@@ -241,11 +241,11 @@
 		CA6CF1C52528CB380025BBB2 /* Authentications */ = {
 			isa = PBXGroup;
 			children = (
+				6D6528EA2636E8C100D36E03 /* LCPDialogViewController.xib */,
 				CAB13210220DB2B10097DFB5 /* LCPAuthenticating.swift */,
 				CA6CF1CC2528CB830025BBB2 /* LCPPassphraseAuthentication.swift */,
 				CA6CF1C62528CB690025BBB2 /* LCPDialogAuthentication.swift */,
 				CA6CF1E12528CC8E0025BBB2 /* LCPDialogViewController.swift */,
-				CA6CF1EB2528CC9A0025BBB2 /* LCPDialogViewController.xib */,
 			);
 			path = Authentications;
 			sourceTree = "<group>";
@@ -506,7 +506,7 @@
 			files = (
 				CAB214E12269C241007E989D /* prod-license.lcpl in Resources */,
 				CA50B88422B2A822003AFF24 /* Localizable.strings in Resources */,
-				CA6CF1ED2528CC9A0025BBB2 /* LCPDialogViewController.xib in Resources */,
+				6D6528EB2636E8C100D36E03 /* LCPDialogViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,14 +619,6 @@
 				CA50B88522B2A822003AFF24 /* en */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		CA6CF1EB2528CC9A0025BBB2 /* LCPDialogViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D6527542636E33C00D36E03 /* en */,
-			);
-			name = LCPDialogViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
