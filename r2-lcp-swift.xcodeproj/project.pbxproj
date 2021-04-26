@@ -211,6 +211,7 @@
 		CA50B88122B2A7F2003AFF24 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6D6528EA2636E8C100D36E03 /* LCPDialogViewController.xib */,
 				CAB214E02269C241007E989D /* prod-license.lcpl */,
 				CA50B88622B2A822003AFF24 /* Localizable.strings */,
 			);
@@ -241,7 +242,6 @@
 		CA6CF1C52528CB380025BBB2 /* Authentications */ = {
 			isa = PBXGroup;
 			children = (
-				6D6528EA2636E8C100D36E03 /* LCPDialogViewController.xib */,
 				CAB13210220DB2B10097DFB5 /* LCPAuthenticating.swift */,
 				CA6CF1CC2528CB830025BBB2 /* LCPPassphraseAuthentication.swift */,
 				CA6CF1C62528CB690025BBB2 /* LCPDialogAuthentication.swift */,
