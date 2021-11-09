@@ -1,15 +1,18 @@
 Pod::Spec.new do |s|
 
   s.name          = "ReadiumLCP"
-  s.version       = "2.1.0"
+  s.version       = "2.2.0"
   s.license       = "BSD 3-Clause License"
   s.summary       = "Readium LCP"
   s.homepage      = "http://readium.github.io"
   s.author        = { "Readium" => "contact@readium.org" }
-  s.source        = { :git => "https://github.com/readium/r2-lcp-swift.git", :branch => "develop" }
+  s.source        = { :git => "https://github.com/readium/r2-lcp-swift.git", :tag => "2.2.0" }
   s.exclude_files = ["**/Info*.plist"]
   s.requires_arc  = true
-  s.resources     = ['readium-lcp-swift/Resources/**', 'readium-lcp-swift/**/*.{storyboard,xib,xcassets}']
+  s.resources     = [
+    'readium-lcp-swift/Resources/**',
+    'readium-lcp-swift/**/*.xib'
+  ]
   s.source_files  = "readium-lcp-swift/**/*.{m,h,swift}"
   s.platform      = :ios
   s.ios.deployment_target = "10.0"
